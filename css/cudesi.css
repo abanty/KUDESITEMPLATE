@@ -160,3 +160,55 @@ ul {
     line-height: 1.1;
     outline-width: 400;
 }
+
+.fondoVM {
+    text-align: left;
+    background: #C8007A;
+    color: #333;
+}
+
+.fondoRedes {
+    background: #ED9F34;
+    color: #333;
+    text-align: center;
+}
+
+#sociales {
+    height: 40px;
+    display: block;
+    margin: 1px 0 0 0;
+    list-style: none;
+}
+
+.display-7 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    outline-width: 400;
+}
+
+#sociales li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url(../imagenes/facebook.svg) no-repeat;
+    transition: background-position 0.5s;
+    -moz-transition: background-position 0.5s;
+    -ms-transition: background-position 0.5s;
+    -o-transition: background-position 0.5s;
+    -webkit-transition: background-position 0.5s;
+}
+
+#sociales li a.instagram {
+    background: url(../imagenes/instagram.svg) no-repeat;
+}
+
+#sociales li a.whatsapp {
+    background: url(../imagenes/whatsapp.svg) no-repeat;
+}
+
+#sociales li a.inbox {
+    background: url(../imagenes/inbox.svg) no-repeat;
+}

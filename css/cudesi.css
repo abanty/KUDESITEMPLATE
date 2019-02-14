@@ -11,7 +11,9 @@ ul {
 /* ESTILOS PARA LA SECCION SUPERIOR */
 .fondomenucudesi {
     font-family: 'Poppins', cursive;
-    background: #C8007A;
+    /* background: #C8007A; */
+		background: #39ad92;
+
     color: #FFF;
     border-bottom: 3px solid #333;
 }
@@ -35,6 +37,12 @@ ul {
     list-style: none;
 }
 
+
+#slogancudesi{
+	font-size: 25px;
+	margin-left: -20px;
+	font-family: 'Great Vibes', cursive;
+}
 
 /* Dropdown (NUESTROS SERVICIOS) Background*/
 .dropdown-menu{/*==========Bootstrao.min Modificado==========*/
@@ -244,5 +252,18 @@ ul {
 
 .Info a {
     color: #FFF;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.Info a:hover {
+    color: #BE6970;
+}
+
+
+#sociales2 li a:hover {
+    background-position: -25px;
+}
+
+#sociales li a:hover {
+    background-position: -40px;
 }

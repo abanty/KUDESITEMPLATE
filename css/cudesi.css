@@ -212,3 +212,37 @@ ul {
 #sociales li a.inbox {
     background: url(../imagenes/inbox.svg) no-repeat;
 }
+
+.delivery h2 {
+    color: #ED9F34;
+    font-family: 'Quicksand';
+    font-size: 30px;
+}
+
+.delivery h3 {
+    color: #fff;
+    font-family: 'Quicksand';
+    font-size: 34px;
+}
+
+.delivery p {
+    color: #999;
+    font-family: 'Quicksand';
+    font-size: 21px;
+}
+
+.fondobrochure {
+    font-family: 'Quicksand';
+    text-align: center;
+    background: url(../imagenes/Trianblack.png) no-repeat #fff center top;
+}
+
+.FondoRegistro {
+    background: url(../imagenes/bg-contactanos.svg);
+    color: #FFF;
+}
+
+.Info a {
+    color: #FFF;
+    text-decoration: none;
+}

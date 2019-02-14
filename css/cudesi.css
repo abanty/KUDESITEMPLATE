@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	padding: 0 auto;
+	/*margin-top: 101px;*/
+}
+
+ul {
+    list-style: none;
+}
+
+/* ESTILOS PARA LA SECCION SUPERIOR */
+.fondomenucudesi {
+    font-family: 'Poppins', cursive;
+    background: #C8007A;
+    color: #FFF;
+    border-bottom: 3px solid #333;
+}
+
+.datosmenusup {
+    font-size: 13px;
+    color: #fff;
+}
+
+.datosmenusup a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#sociales2 {
+    height: 25px;
+    display: block;
+    margin: 1px 0 0 0;
+    list-style: none;
+}
+
+
+/* Dropdown (NUESTROS SERVICIOS) Background*/
+.dropdown-menu{/*==========Bootstrao.min Modificado==========*/
+	background-color: rgba(255,255,255,.9) !important;
+}
+.dropdown-divider{/*==========Bootstrao.min Modificado==========*/
+	background-color: #ddd !important;
+	padding: 0 !important;
+}
+
+
+#sociales2 li a {
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url(../imagenes/socialmedia/facebookcudesi.svg) no-repeat;
+    transition: background-position 0.5s;
+    -moz-transition: background-position 0.5s;
+    -ms-transition: background-position 0.5s;
+    -o-transition: background-position 0.5s;
+    -webkit-transition: background-position 0.5s;
+}
+
+#sociales2 li a.instagram {
+    background: url(../imagenes/socialmedia/instagramcudesi.svg) no-repeat;
+}
+
+#sociales2 li a.whatsapp {
+    background: url(../imagenes/socialmedia/whatsappcudesi.svg) no-repeat;
+}
+
+#sociales2 li a.inbox {
+    background: url(../imagenes/socialmedia/inboxcudesi.svg) no-repeat;
+}
+
+
+
+
+/* ESTILO PARA EL MENU SIGUIENTE SECCION */
+#menu li a {
+    position: relative;
+    display: block;
+    /* text-align: center; */
+    margin: 0 10px 0 0;
+    color: #262626;
+    font-size: 14px;
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    transition: .5s;
+    padding: 10px 10px;
+}
+
+#menu a {
+    font-family: 'Poppins', cursive;
+    font-size: 14px;
+    color: #434142;
+    /* text-transform: ; */
+}
+
+.logo-centro {
+    text-align: left;
+}
+
+.titulogeneral {
+    width: 200px;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0;
+    font-size: 1px;
+    text-indent: -8000px;
+}
+
+/* ESTILOS PARA EL SLIDER CUDESI */
+.sliderInicio {
+    height: 80vh;
+    background: url(../imagenes/fondoprueba.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.sliderInicio h2 {
+    color: #FFF;
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 45px;
+    /* text-shadow: 4px 4px 4px #333; */
+}
+
+.sliderInicio h3 {
+    color: #FFF;
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 50px;
+    /* text-shadow: 4px 4px 4px #333; */
+}
+
+.sliderInicio p {
+    color: #FFF;
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    /* text-shadow: 2px 2px 2px #333; */
+}
+
+/* FIN ESTILOS SILDER */
+
+.mt-1{
+	font-size: 14px;
+	line-height: 15px;
+}
+
+
+.display-6 {
+    font-size: 1.9rem !important;
+    font-weight: 300;
+    line-height: 1.1;
+    outline-width: 400;
+}

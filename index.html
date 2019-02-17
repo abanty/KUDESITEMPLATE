@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Font awesome -->
 	<!--GoogleFonts-->
+	<!-- DANIEL -->
 	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> <!-- fuente banner -->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> <!-- fuente menu -->
@@ -24,7 +25,8 @@
 
   <!-- Scroll -->
    <script src="js/scrollreveal.min.js" type="text/javascript"></script>
-   <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.8/SmoothScroll.min.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 </head>
 
@@ -64,13 +66,19 @@
 	<!-- - - - - - - - - - - - -  - - -->
 	<!--   MENU DE NAVEGACION CUDESIS -->
 	<!-- - - - - - - - - - -  - - - - -->
+
 	<header class="container-fluid sticky-top" id="headercont">
+
 		<nav id="menu" class="navbar-toggleable-md navbar navbar-light container">
 
 			<!-- LOGO CUDESI ESCRITORIO -->
 			<a class="navbar-brand hidden-md-down logo-centro" href="index.php">
         <!-- <h1>LOGO CUDESI</h1> -->
+<<<<<<< HEAD
 				<img src="imagenes/cudesilogo.png" width="100" height="100"><span id="slogancudesi">Tu mejor opcion!</span>
+=======
+				<img id="logocudesi" src="imagenes/cudesilogo.png" width="80" height="75"><span class="animated flipInX fade3" id="slogancudesi">Tu mejor opcion!</span>
+>>>>>>> cba049e41dfe9a3bf301588e2ca1fe3d8b385ce8
 			</a>
 			<button class="navbar-toggler navbar-toggler-right mt-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -89,41 +97,41 @@
 					<hr>
           <li class="nav-item"><a class="nav-link active" href="index.php"><span>INICIO</span></a></li>
 					<hr>
-					<li class="nav-item"><a class="nav-link" href="catalogo-digital.php">CATÁLOGOS DIGITAL</a></li>
+					<li class="nav-item"><a class="nav-link" href="">CATÁLOGOS DIGITAL</a></li>
 					<hr>
-					<li class="nav-item"><a class="nav-link" href="contactanos.php">CONTÁCTANOS</a></li>
+					<li class="nav-item"><a class="nav-link" href="">CONTÁCTANOS</a></li>
 					<hr>
-					<li class="nav-item"><a class="nav-link" href="conocenos.php">CONÓCENOS</a></li>
+					<li class="nav-item"><a class="nav-link" href="">CONÓCENOS</a></li>
 					<hr>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               NUESTROS SERVICIOS
             </a>
             <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
               <div class="row pt-5">
                 <div class="col-md-4">
                   <img src="imagenes/socialmedia/promo.png" width="200" height="auto" alt="flyer" class="img-fluid">
-                  <p class="mt-1">ESCANEA E INFORMATE DE NUESTRAS <span style="color: #C8007A;">PROMOCIONES</span></p>
+                  <p class="mt-1">ESCANEA E INFORMATE DE NUESTRAS <span style="color: #39ad92;">PROMOCIONES</span></p>
                 </div>
                 <div class="col-md-4">
                   <p class="sub-menu-heading" style="text-transform: uppercase;">Diseño Gráfico</p>
-                  <p><a href="creacion-logotipos.php">Creación de Logotipos</a></p>
+                  <p><a href="">Creación de Logotipos</a></p>
                   <hr>
-                  <p><a href="#">Tarjeta de Presentación</a></p>
+                  <p><a href="">Tarjeta de Presentación</a></p>
                   <hr>
-                  <p><a href="#">Afiches / Volantes</a></p>
+                  <p><a href="">Afiches / Volantes</a></p>
                   <hr>
-                  <p><a href="#">Gigantografías</a></p>
+                  <p><a href="">Gigantografías</a></p>
                 </div>
                 <div class="col-md-4">
                   <p class="sub-menu-heading" style="text-transform: uppercase;">Web / Multimedia</p>
-                  <p><a href="#">Web Responsive</a></p>
+                  <p><a href="">Web Responsive</a></p>
                   <hr>
-                  <p><a href="#">Web Administrable / CMS</a></p>
+                  <p><a href="">Web Administrable / CMS</a></p>
                   <hr>
-                  <p><a href="#">Catálogo Digital</a></p>
+                  <p><a href="">Catálogo Digital</a></p>
                   <hr>
-                  <p><a href="#">Edición de Video</a></p>
+                  <p><a href="">Edición de Video</a></p>
                 </div>
               </div>
             </div>
@@ -139,12 +147,12 @@
 	<!--   SECCION DE SLIDER PRINCIPAL CON EFECTOS EN TEXTOS  -->
 	<!-- - - - - - - - - - - - -  - - - - - - - - - - - - - - -->
   <section class="container-fluid sliderInicio text-center d-flex justify-content-center item align-items-center">
-      <div>
+      <div class="myclass">
           <h2 class="animated fadeInUp" >¿Aún no tienes</h2>
-          <h3 class="animated fadeInUp" id="fade1">Tú identidad corporativa?</h3>
-          <p class="animated fadeInUp" id="fade2">Te ofrecemos una solución completa para la identidad de tu empresa</p>
-          <a class="btn mt-2 px-4 py-3 animated bounceInUp" href="creacion-logotipos.php" role="button" id="afadebounce1">Diseño Grafico</a>
-          <a class="btn mt-2 px-4 py-3 animated bounceInUp" href="web-responsive.php" role="button" id="afadebounce2">Web Responsiva</a>
+          <h3 class="animated fadeInUp fade1">Tú identidad corporativa?</h3>
+          <p class="animated fadeInUp fade2">Te ofrecemos una solución completa para la identidad de tu empresa</p>
+          <a class="btn mt-2 px-4 py-3 animated bounceInUp" href="" role="button" id="afadebounce1">Diseño Grafico</a>
+          <a class="btn mt-2 px-4 py-3 animated bounceInUp" href="" role="button" id="afadebounce2">Web Responsiva</a>
       </div>
   </section>
 
@@ -155,18 +163,17 @@
   <div class="container-fluid py-5">
       <div class="container">
           <div class="row">
-              <div class="col-md-6 nosotros">
-                  <h2 class="lead display-6 pt-3"><strong style="color: #333;">EXPERIMENTA LA<span style="color: #0E78C6;"> DIFERENCIA</span></strong></h3>
-                  <p class="lead" style="line-height: 30px; color: #333; text-align: justify;">
-                    Más de 10 años de experiencia brindando nuestros servicios en el mundo del diseño gráfico publicitario,
-                    web y multimedia, dejando clientes satisfechos en cada uno de sus proyectos realizados en nuestra agencia digital.
-                    Fusionamos la creatividad con la técnologia, con el fin de brindar excelentes servicios a través de diversas alternativas
-                    de comunicación, haciendo de su marca o empresa un simbolo de calidad.</p>
-              </div>
-
-              <div class="col-md-6 text-center responsive">
+						  <div class="col-md-6 text-center responsive">
                   <img src="imagenes/responsive.png" class="img-fluid">
               </div>
+							<div class="col-md-6 nosotros">
+									<h2 class="lead display-6 pt-3"><strong style="color: #333;">EXPERIMENTA LA<span style="color: #0E78C6;"> DIFERENCIA</span></strong></h3>
+									<p class="lead" style="line-height: 30px; color: #333; text-align: justify;">
+										Más de 10 años de experiencia brindando nuestros servicios en el mundo del diseño gráfico publicitario,
+										web y multimedia, dejando clientes satisfechos en cada uno de sus proyectos realizados en nuestra agencia digital.
+										Fusionamos la creatividad con la técnologia, con el fin de brindar excelentes servicios a través de diversas alternativas
+										de comunicación, haciendo de su marca o empresa un simbolo de calidad.</p>
+							</div>
           </div>
       </div>
   </div>
@@ -178,16 +185,17 @@
 	<div class="container-fluid fondoVM">
 			<div class="container">
 					<div class="row">
+						<div class="col-md-6 nosotros py-5">
+								<h2 class="lead display-6 pt-4"><strong style="color: #fff;">PORQUÉ <span style="color: #ECC82E;">NOSOTROS?</span></strong>
+								<p class="lead mt-2" style="line-height: 30px; color: #fff;">Ofrecemos a nuestros clientes nuevas tendencias estratégicas de comunicación ya sea impresa o digital que giran entorno al mercado (Branding, diseño gráfico, diseño publicitario, diseño y desarrollo de páginas web, web móvil o responsive, social media, posicionamiento SEO, envío de mailling, códigos QR.</p>
+								<a class="btn btn-warning mt-2 px-5 py-3" style="color: #39ad92" href="" role="button">LEER MÁS</a>
+						</div>
+
 
 							<div class="col-md-6 text-center  d-none d-md-block">
 								<img src="imagenes/dibujoMV.png" class="img-fluid mt-5">
 							</div>
 
-							<div class="col-md-6 nosotros py-5">
-									<h2 class="lead display-6 pt-4"><strong style="color: #fff;">PORQUÉ <span style="color: #ECC82E;">NOSOTROS?</span></strong>
-									<p class="lead mt-2" style="line-height: 30px; color: #fff;">Ofrecemos a nuestros clientes nuevas tendencias estratégicas de comunicación ya sea impresa o digital que giran entorno al mercado (Branding, diseño gráfico, diseño publicitario, diseño y desarrollo de páginas web, web móvil o responsive, social media, posicionamiento SEO, envío de mailling, códigos QR.</p>
-									<a class="btn btn-warning mt-2 px-5 py-3" style="color: #C8007A" href="conocenos.php" role="button">LEER MÁS</a>
-							</div>
 
 					</div>
 			</div>
@@ -201,15 +209,15 @@
 			<div class="container">
 					<div class="container text-center" style="font-size: 14px;">
 
-			<h2 class="lead display-6"><strong style="color: #000;"> NUESTROS<span style="color: #C8007A;"> SERVICIOS </span></strong></h2>
+			<h2 class="lead display-6"><strong style="color: #000;"> NUESTROS<span style="color: #39ad92;"> SERVICIOS </span></strong></h2>
 
 			<div class="row pt-5">
 
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/creacion-logotipos.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong style="color: #333;">CREACIÓN DE LOGOTIPOS</strong><br>Crea tu propia imagen</p>
-					<a class="btn btn-dark" href="creacion-logotipos.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -217,8 +225,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/tarjetas-presentacion.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>TARJETA DE PRESENTACIÓN</strong><br>Brillante, mate, sectorizado</p>
-					<a class="btn btn-dark" href="tarjetas-presentacion.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -226,8 +234,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/afiches-volantes.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>AFICHES / VOLANTES</strong><br>Papel couché de 115gr. y 150gr.</p>
-					<a class="btn btn-dark" href="afiches-volantes.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -235,8 +243,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/gigantografia.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong style="color: #333;">GIGANTOGRAFÍAS</strong><br>Somos más que una imprenta</p>
-					<a class="btn btn-dark" href="gigantografias.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -244,8 +252,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/web-responsive.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>WEB RESPONSIVE</strong><br>Adaptable a cualquier pantalla</p>
-					<a class="btn btn-dark" href="web-responsive.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -253,8 +261,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/web-administrable.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>WEB ADMINISTRABLE / CMS</strong><br>Administra tus contenidos</p>
-					<a class="btn btn-dark" href="web-administrable.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -262,8 +270,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/catalogo-digital.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>CATÁLOGO DIGITAL</strong><br>Libros, brochures, revistas</p>
-					<a class="btn btn-dark" href="catalogo-digital.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -271,8 +279,8 @@
 				<div class="col-md-3 mb-5 servicios">
 					<img src="imagenes/edicion-video.png" class="img-fluid mb-3 bordealo rounded-0">
 					<p style="line-height: 18px; FON"><strong>EDICIÓN DE VIDEO</strong><br>Tú grabas, nosotros Editamos</p>
-					<a class="btn btn-dark" href="edicion-videos.php" role="button" style="background: #C8007A; color:#FFF; font-size: 14px;">VER MÁS</a>
-					<a class="btn " href="contactanos.php" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
+					<a class="btn btn-dark" href="" role="button" style="background: #39ad92; color:#FFF; font-size: 14px;">VER MÁS</a>
+					<a class="btn " href="" role="button" style="background: #333; color: #FFF; font-size: 14px;">COTIZAR</a>
 					<hr class="d-lg-none mt-5">
 				</div>
 				<!--==========-->
@@ -318,7 +326,7 @@
 							<h2>LOS TRABAJOS DE IMPRENTA</h2>
 							<h3>SE ENVÍAN EN TODO LIMA</h3>
 							<p>LOS ENVÍOS SON PREVÍA COORDINACIÓN</p>
-							<a class="btn btn-warning mt-2 px-4 py-3" href="contactanos.php" role="button" style="color: #000; font-weight: bold;">CONTÁCTANOS</a>
+							<a class="btn btn-warning mt-2 px-4 py-3" href="" role="button" style="color: #000; font-weight: bold;">CONTÁCTANOS</a>
 							<a class="btn btn-success mt-2 px-4 py-3" href="https://api.whatsapp.com/send?phone=51950814701" role="button">VENTAS WHATSAPP</a>
 						</div>
 
@@ -334,7 +342,7 @@
 			<div class="container abajo">
 					<h3 class="display-7">Ahora tus clientes podrán ver en línea tus productos con</h3>
 					<h2 class="display-6">TU CATÁLOGO DIGITAL!</h2>
-					<a class="btn mt-2 px-5 py-3" href="http://www.desarrollo.xpresamas.com/belisasesores.com/" target="_blank" role="button" style="background: #C8007A; color: #fff;">VER DEMO DE CATÁLOGO</a>
+					<a class="btn mt-2 px-5 py-3" href="http://www.desarrollo.xpresamas.com/belisasesores.com/" target="_blank" role="button" style="background: #39ad92; color: #fff;">VER DEMO DE CATÁLOGO</a>
 			</div>
 	</div>
 
@@ -358,16 +366,16 @@
 
 								<p class="Info"><a href="index.php">Inicio</a></p>
 								<hr>
-								<p class="Info"><a href="conocenos.php">Conócenos</a></p>
+								<p class="Info"><a href="">Conócenos</a></p>
 								<hr>
-								<p class="Info"><a href="contactanos.php">Contáctanos</a></p>
+								<p class="Info"><a href="">Contáctanos</a></p>
 								<hr>
 							</div>
 
 							<div class="col-md-3">
 								<p style="color: #86DDFF;">DISEÑO GRÁFICO</p>
 
-								<p class="Info"><a href="creacion-logotipos.php">Creación de Logotipos</a></p>
+								<p class="Info"><a href="">Creación de Logotipos</a></p>
 								<hr>
 								<p class="Info"><a href="tarjetas-presentacion.php">Tarjeta de Presentación</a></p>
 								<hr>
@@ -380,13 +388,13 @@
 							<div class="col-md-3">
 								<p style="color: #86DDFF;">WEB & MULTIMEDIA</p>
 
-								<p class="Info"><a href="web-responsive.php">Web Responsive</a></p>
+								<p class="Info"><a href="">Web Responsive</a></p>
 								<hr>
 								<p class="Info"><a href="web-administrable.php">Web Administrable / CMS</a></p>
 								<hr>
-								<p class="Info"><a href="catalogo-digital.php">Catálogo Digital</a></p>
+								<p class="Info"><a href="">Catálogo Digital</a></p>
 								<hr>
-								<p class="Info"><a href="edicion-videos.php">Edición de Video</a></p>
+								<p class="Info"><a href="">Edición de Video</a></p>
 								<hr>
 							</div>
 
@@ -409,21 +417,32 @@
 		<!-- - - - - - - - - - - -->
     <footer class="container-fluid d-flex justify-content-center item align-items-center p-3">
         <div class="container text-center">
-						<div><span style="font-weight: bold;">©xpresamas 2018.</span> Todos los derechos reservados.</div>
+						<div><span style="font-weight: bold;">Cudesi 2019.</span> Todos los derechos reservados.</div>
 				</div>
     </footer>
 
 
 
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+	<script src="js/embed.js"></script>
+
 	<script src="js/jquery-3.1.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
 
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/tether.min.js"></script>
+		<script src="js/hoverSlippery.js"></script>
+	<script>
+		$(document).ready(function(){
+			//- Default
+			$('.def').hoverSlippery();
 
+		})
+	</script>
   <!--ScrollReveal -->
 <script>
+	// $('#msgform').tooltip({ boundary: 'window' });
+
 window.sr = ScrollReveal();
 sr.reveal('.abajo', {
   duration: 2000,
@@ -459,6 +478,7 @@ sr.reveal('.servicios', {
       });
   });
 </script>
+
 
 </body>
 

@@ -1,15 +1,20 @@
 
-#fade1{
+.fade1{
 	animation-delay: 1s;
 }
 
-#fade2{
+.fade2{
 	animation-delay: 2s;
+}
+
+.fade3{
+	animation-delay: 0.1s;
 }
 
 #headercont{
 	background: rgba(255,255,255,.95);
-	box-shadow: 0px 0px 10px 0px #333;
+	/* box-shadow: 0px 0px 10px 0px #333; */
+	padding: 10px;
 }
 
 #afadebounce1{
@@ -19,7 +24,7 @@
 }
 
 #afadebounce2{
-	background: rgba(6,63,154,.9);
+	background: #ec971f;
 	color: #fff;
 	animation-delay: 4s;
 }

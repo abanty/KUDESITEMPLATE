@@ -12,7 +12,7 @@ ul {
 .fondomenucudesi {
     font-family: 'Poppins', cursive;
     /* background: #C8007A; */
-		background: #39ad92;
+		background: #3b848b;
 
     color: #FFF;
     border-bottom: 1px solid #333;
@@ -253,7 +253,8 @@ a:focus, a:hover {
 }
 
 .FondoRegistro {
-    background: url(../imagenes/bg-contactanos.svg);
+    /* background: url(../imagenes/bg-contactanos.svg); */
+		background: url(../imagenes/fondo10.jpg) no-repeat;
     color: #FFF;
 }
 

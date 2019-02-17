@@ -15,7 +15,7 @@ ul {
 		background: #39ad92;
 
     color: #FFF;
-    border-bottom: 3px solid #333;
+    border-bottom: 1px solid #333;
 }
 
 .datosmenusup {
@@ -24,8 +24,8 @@ ul {
 }
 
 .datosmenusup a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    text-decoration: none !important;
     padding-right: 2px;
     padding-left: 2px;
 }
@@ -40,7 +40,8 @@ ul {
 
 #slogancudesi{
 	font-size: 25px;
-	margin-left: -20px;
+	margin-top: 30px;
+  position: absolute;
 	font-family: 'Great Vibes', cursive;
 }
 
@@ -121,7 +122,8 @@ ul {
 /* ESTILOS PARA EL SLIDER CUDESI */
 .sliderInicio {
     height: 80vh;
-    background: url(../imagenes/fondoprueba.svg) no-repeat;
+    /* background: url(../imagenes/fondoprueba.svg) no-repeat; */
+		background: url(../imagenes/fondo03.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     -moz-background-size: cover;
@@ -134,7 +136,7 @@ ul {
     font-family: 'Quicksand';
     text-align: center;
     font-size: 45px;
-    /* text-shadow: 4px 4px 4px #333; */
+    text-shadow: 4px 4px 4px #333;
 }
 
 .sliderInicio h3 {
@@ -142,7 +144,7 @@ ul {
     font-family: 'Quicksand';
     text-align: center;
     font-size: 50px;
-    /* text-shadow: 4px 4px 4px #333; */
+    text-shadow: 4px 4px 4px #333;
 }
 
 .sliderInicio p {
@@ -151,7 +153,7 @@ ul {
     text-align: center;
     font-size: 18px;
     padding-top: 10px;
-    /* text-shadow: 2px 2px 2px #333; */
+    text-shadow: 2px 2px 2px #333;
 }
 
 /* FIN ESTILOS SILDER */
@@ -161,6 +163,10 @@ ul {
 	line-height: 15px;
 }
 
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: none !important;
+}
 
 .display-6 {
     font-size: 1.9rem !important;
@@ -171,7 +177,8 @@ ul {
 
 .fondoVM {
     text-align: left;
-    background: #C8007A;
+    /* background: #C8007A; */
+		background: url(../imagenes/fondo04.jpg) no-repeat;
     color: #333;
 }
 
@@ -266,4 +273,25 @@ ul {
 
 #sociales li a:hover {
     background-position: -40px;
+}
+
+
+#logocudesi {
+  /* border-radius: 100%; */
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+#logocudesi:hover{
+	-webkit-transform: rotate(360deg);
+				 transform: rotate(360deg);
+}
+
+.myclass {
+    background: #00000014;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
 }
